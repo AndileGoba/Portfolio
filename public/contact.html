@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <script type="text/javascript">
+        function dataCallback(response) {
+            console.log("dataCallback", response)
+            window.location.href = "/checkRecaptcha?response=" + encodeURIComponent(response)
+        }
+
+        function dataExpiredCallback() {
+            console.log("dataExpiredCallback")
+        }
+    </script>
+
+</head>
+
+<body class="style-contact-background">
+    <header>
+        <!--- Start Coding The Nav-Bar --->
+        <div class="container">
+            <nav class="desk">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Project</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <nav class="mobi">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Project</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <!--- End Coding The Nav-Bar --->
+
+        <div class="style-contact-title">
+            <h1>Contact Me</h1>
+        </div>
+
+    </header>
+
+    <div class="style-contact-content">
+        <h3>Email Us</h3>
+        <form id="contactForm">
+            <label class="style-contact-content-labels">
+                    <h5>Name:</h5>
+            </label>
+            <input type="text" name="name" id="name" class="style-inputs" placeholder="Enter your name...">
+
+            <label class="style-contact-content-labels">
+                <h5>Email Address:</h5>
+            </label>
+            <input type="email" name="email" id="email" class="style-inputs" placeholder="Enter email address...">
+
+            <label class="style-contact-content-labels">
+                <h5>Message:</h5>
+            </label>
+            <textarea name="message" id="message" cols="30" rows="100" class="style-input-email" placeholder="Message Me..."></textarea>
+            <br/>
+            <div class="g-recaptcha" data-sitekey="6LdYuLAUAAAAACON4odj6OSwE7-ejUnjdJQNnb9v" data-callback="dataCallback" data-expired-callback="dataExpiredCallback"></div>
+            <button type="submit" name="submit" class="style-submit-btn">Submit</button>
+            <div class="alert">Your message has been sent</div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="style-footer-background">
+            <h1>Follow Me On:</h1>
+            <div class="style-footers">
+                <div class="style-footer-image">
+                    <ul>
+                        <li>
+                            <a href=""> <img src="Content/facebook_logo.png" height="50" alt="Image of Facebook Logo"> </a>
+                        </li>
+                        <li>
+                            <a href=""> <img src="Content/intagram_logo.png" height="50" alt="Image of Instagram Logo"> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase-database.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

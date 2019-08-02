@@ -1,0 +1,932 @@
+/* --- Home Page CSS Coding --- */
+
+div {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* --- inserting Background --- */
+
+.home-back-image {
+    background: url(Content/lerone-pieters-XnBrDrAJaoo-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* --- Styling the title of page --- */
+
+.style-title {
+    color: #ffffff;
+    background: #000000;
+    display: block;
+    text-align: center;
+    border-radius: 1.5em;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+
+/* --- Styling the profession title --- */
+
+.style-profession {
+    color: #ffffff;
+    background: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    border-radius: 1.5em;
+    opacity: 0.9;
+}
+
+
+/* --- Styling the intro paragraph --- */
+
+.style-intro-para {
+    color: #ffffff;
+    background: #000000;
+    text-align: center;
+    border-radius: 1.5em;
+    opacity: 0.9;
+}
+
+
+/* --- Styling the home image --- */
+
+.style-image-width-height {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: 100px 95px 0 auto;
+}
+
+.style-image {
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+.style-image:hover {
+    box-shadow: #000000;
+}
+
+
+/* --- End Styling the home image --- */
+
+
+/* --- Coding Nav-Bar --- */
+
+.container nav {
+    text-decoration: none;
+    background: #777777;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 2px 2px 0 rgba( 0, 0, 0, 0.14);
+    position: relative;
+    top: 20px;
+    left: 0;
+}
+
+nav.desk ul {
+    list-style: none;
+    width: 75%;
+    height: 60px;
+    margin: 0 auto;
+}
+
+nav.mobi ul {
+    list-style: none;
+    width: 80%;
+    height: 60px;
+    margin: 0 auto;
+}
+
+nav.desk ul li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    margin-left: 20px;
+    border-radius: 1.5em;
+}
+
+nav.desk ul li:hover {
+    background: #000000;
+}
+
+nav.mobi ul li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 1.5em;
+    font-size: 10px;
+}
+
+nav.mobi ul li:hover {
+    background: #000000;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav.mobi {
+    display: none;
+}
+
+
+/* --- End Coding Nav-Bar --- */
+
+
+/* --- End Home Page CSS Coding --- */
+
+
+/********************************************************************************************************/
+
+
+/* --- Start About Page CSS Coding --- */
+
+.style-about-background {
+    background: url(Content/lerone-pieters-XnBrDrAJaoo-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.style-about-title {
+    color: #ffffff;
+    background: #000000;
+    display: block;
+    text-align: center;
+    border-radius: 1.5em;
+    width: 50%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    opacity: 0.95;
+}
+
+.style-about-para {
+    margin: 100px;
+    font-size: 35px;
+    color: #ffffff;
+    background: #000000;
+    text-align: center;
+    border-radius: 0.5em;
+    box-shadow: rgba( 0, 0, 0, 0.14)
+}
+
+
+/*-------------------------------------------------------------------------------*/
+
+
+/*------- Aligns All The Learnt Langauges ------*/
+
+.style-progress-bar {
+    float: left;
+    margin: 0 0 0 80px;
+}
+
+
+/*---- Java-Progress-bar ----*/
+
+.progress-java-title {
+    background: #000000;
+    color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 1em;
+    text-align: center;
+    margin: 0 0 30px 50px;
+}
+
+.progress-java-image {
+    border-radius: 50%;
+    margin: 0 0 0 70px;
+}
+
+.progress-java-bar {
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    border-radius: 1.5em;
+    content: attr(data-label);
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: .5em;
+    top: .5em;
+    bottom: .5em;
+}
+
+.percen-bar-java {
+    top: .5em;
+    left: 1em;
+    bottom: .5em;
+    height: 45px;
+    width: 65px;
+    min-width: 3em;
+    background-color: whitesmoke;
+    border-radius: 1.5em;
+}
+
+.percen-bar-java h2 {
+    margin: 30px 0 0 90px;
+    color: white;
+}
+
+
+/* --- End Java-Progress-bar ----*/
+
+
+/*--------------------------------------------*/
+
+
+/* --- HTML-Progress-Bar --- */
+
+.progress-HTML-title {
+    background: #000000;
+    color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 1em;
+    text-align: center;
+    margin: 0 0 30px 50px;
+}
+
+.progress-HTML-image {
+    border-radius: 50%;
+    margin: 0 0 0 70px;
+}
+
+.progress-HTML-bar {
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    border-radius: 1.5em;
+    content: attr(data-label);
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: .5em;
+    top: .5em;
+    bottom: .5em;
+}
+
+.percen-bar-HTML {
+    top: .5em;
+    left: 1em;
+    bottom: .5em;
+    height: 45px;
+    width: 125px;
+    min-width: 3em;
+    background-color: whitesmoke;
+    border-radius: 1.5em;
+}
+
+.percen-bar-HTML h2 {
+    margin: 30px 0 0 90px;
+    color: white;
+}
+
+
+/* --- End HTML-Progress-Bar --- */
+
+
+/*--------------------------------------------*/
+
+
+/*---- CSS-Progress-bar ----*/
+
+.progress-CSS-title {
+    background: #000000;
+    color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 1em;
+    text-align: center;
+    margin: 0 0 30px 50px;
+}
+
+.progress-CSS-image {
+    border-radius: 50%;
+    margin: 0 0 0 70px;
+}
+
+.progress-CSS-bar {
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    border-radius: 1.5em;
+    content: attr(data-label);
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: .5em;
+    top: .5em;
+    bottom: .5em;
+}
+
+.percen-bar-CSS {
+    top: .5em;
+    left: 1em;
+    bottom: .5em;
+    height: 45px;
+    width: 130px;
+    min-width: 3em;
+    background-color: whitesmoke;
+    border-radius: 1.5em;
+}
+
+.percen-bar-CSS h2 {
+    margin: 30px 0 0 90px;
+    color: white;
+}
+
+
+/* --- End CSS-Progress-bar ----*/
+
+
+/*--------------------------------------------*/
+
+
+/*---- JS-Progress-bar ----*/
+
+.progress-JS-title {
+    background: #000000;
+    color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 1em;
+    text-align: center;
+    margin: 0 0 30px 50px;
+}
+
+.progress-JS-image {
+    border-radius: 50%;
+    margin: 0 0 0 30px;
+}
+
+.progress-JS-bar {
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    border-radius: 1.5em;
+    content: attr(data-label);
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: .5em;
+    top: .5em;
+    bottom: .5em;
+}
+
+.percen-bar-JS {
+    top: .5em;
+    left: 1em;
+    bottom: .5em;
+    height: 45px;
+    width: 10px;
+    min-width: 3em;
+    background-color: whitesmoke;
+    border-radius: 1.5em;
+}
+
+.percen-bar-JS h2 {
+    margin: 30px 0 0 90px;
+    color: white;
+}
+
+
+/* --- End JS-Progress-bar ----*/
+
+
+/*--------------------------------------------*/
+
+
+/*---- JS-Progress-bar ----*/
+
+.progress-php-title {
+    background: #000000;
+    color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 1em;
+    text-align: center;
+    margin: 0 0 30px 50px;
+}
+
+.progress-php-image {
+    border-radius: 50%;
+    margin: 0 0 0 70px;
+}
+
+.progress-php-bar {
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    border-radius: 1.5em;
+    content: attr(data-label);
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: .5em;
+    top: .5em;
+    bottom: .5em;
+}
+
+.percen-bar-php {
+    top: .5em;
+    left: 1em;
+    bottom: .5em;
+    height: 45px;
+    width: 55px;
+    min-width: 3em;
+    background-color: whitesmoke;
+    border-radius: 1.5em;
+}
+
+.percen-bar-php h2 {
+    margin: 30px 0 0 90px;
+    color: white;
+}
+
+
+/* --- End JS-Progress-bar ----*/
+
+
+/* --- End About Page CSS Coding --- */
+
+
+/********************************************************************************************************/
+
+
+/* --- Start Project Page CSS Coding --- */
+
+
+/*--- Start The Work And Project Grid Coding ---*/
+
+.style-proj-background {
+    background: url(Content/lerone-pieters-XnBrDrAJaoo-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.style-proj-title-background {
+    color: #ffffff;
+    background: #000000;
+    display: block;
+    text-align: center;
+    border-radius: 1.5em;
+    width: 30%;
+    height: 20%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.style-proj-title {
+    line-height: 10px;
+    font-size: 25px;
+}
+
+.container-gallery {
+    max-width: 900px;
+    max-height: 400px;
+    background: #777777;
+    overflow: auto;
+    margin: 0 auto;
+    border-radius: 1.5em;
+    opacity: 0.95;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #777777;
+    float: left;
+    width: 390px;
+    opacity: 1.5;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+}
+
+.container-text {
+    max-width: 500px;
+    background: darkgrey;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0 auto 0 auto;
+    border-radius: 1.5em;
+}
+
+.container-proj-info {
+    margin: 5px;
+    border: 1px solid #777777;
+    float: left;
+    width: 390px;
+}
+
+.describe {
+    padding: 15px;
+    text-align: center;
+}
+
+.style-proj-text {
+    font-size: 15px;
+    margin: 0 auto 0 auto;
+}
+
+.style-proj-info-background {
+    background: #777777;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    border-radius: 1.5em;
+    line-height: 40px;
+    margin: 0 auto 10px auto;
+}
+
+.style-proj-photogrid {
+    margin: 0 auto 0 auto;
+}
+
+.style-work-photogrid {
+    margin: 100px auto 0 auto;
+}
+
+aside {
+    margin: 0 auto 0 auto;
+}
+
+
+/*--- End The Work And Project Grid Coding ---*/
+
+
+/* --- End Project Page CSS Coding --- */
+
+
+/********************************************************************************************************/
+
+
+/* --- Start Contact Page CSS Coding --- */
+
+.style-contact-background {
+    background: url(Content/lerone-pieters-XnBrDrAJaoo-unsplash.jpg);
+}
+
+
+/* --- My Form Style ---*/
+
+.style-contact-title {
+    color: #ffffff;
+    background: #000000;
+    display: block;
+    text-align: center;
+    border-radius: 1.5em;
+    width: 50%;
+    height: 25%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+.style-contact-content {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.style-contact-content-labels {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.style-inputs {
+    width: 500px;
+    height: 30px;
+}
+
+.style-input-email {
+    width: 500px;
+    height: 300px;
+}
+
+.g-recaptcha {
+    margin-top: 50px;
+    margin-left: 650px;
+    margin-bottom: 10px;
+}
+
+.style-submit-btn {
+    width: 100px;
+    height: 50px;
+    margin: 10px auto 0 auto;
+}
+
+.alert {
+    text-align: center;
+    padding: 10px;
+    background: #79c879;
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 10px;
+    display: none;
+    margin-top: 50px;
+}
+
+
+/* --- End My Form Style ---*/
+
+.style-footer-background {
+    background: #ffffff;
+    width: 500px;
+    height: 125px;
+    text-align: center;
+    margin: 50px auto 0 auto;
+}
+
+.style-footers li {
+    list-style: none;
+}
+
+.style-footer-image ul li {
+    float: left;
+    margin: 5px 0 0 65px;
+}
+
+
+/* --- End Contact Page CSS Coding --- */
+
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+
+/* --- Responsive Coding --- */
+
+@media screen and (max-width: 700px) {
+    div {
+        font-size: 5px;
+    }
+    /* --- Home Page Responsive Coding --- */
+    .home-back-image,
+    .style-about-background,
+    .style-proj-background,
+    .style-contact-background {
+        background-attachment: fixed;
+    }
+    .style-title,
+    .style-about-title,
+    .style-proj-title,
+    .style-contact-title {
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 50%;
+        font-size: 10px;
+        margin: 50px 0 0 0;
+    }
+    .style-image-width-height {
+        width: 20%;
+        align-self: center;
+        margin: 10px auto 0 auto;
+        height: 40%;
+    }
+    .style-image {
+        width: 100%;
+        align-self: center;
+        display: block;
+        height: 70%;
+    }
+    .style-profession {
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    .style-intro-para,
+    .style-about-para {
+        width: 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    nav.mobi {
+        display: flex;
+        font-size: 2px;
+    }
+    nav.desk {
+        display: none;
+    }
+    /* -------- About Page Responsive Coding --------*/
+    .style-about-para {
+        font-size: 15px;
+        width: 100%;
+        margin: 25px auto 0 auto;
+    }
+    .style-progress-bar {
+        width: 100%;
+        float: left;
+        margin: 35px 0 100px 60px;
+    }
+    .progress-java-title,
+    .progress-HTML-title,
+    .progress-CSS-title,
+    .progress-JS-title,
+    .progress-php-title {
+        width: 25%;
+        font-size: 20px;
+        margin: 30px 0 0 60px;
+    }
+    .progress-java-image,
+    .progress-HTML-image,
+    .progress-CSS-image,
+    .progress-php-image {
+        width: 25%;
+        margin: 10px 0 10px 55px;
+        height: 40%;
+    }
+    .progress-JS-image {
+        width: 25%;
+        margin: 10px 0 10px 10px;
+    }
+    .progress-HTML-bar,
+    .progress-CSS-bar {
+        width: 50%;
+    }
+    .progress-java-bar,
+    .progress-JS-bar,
+    .progress-php-bar {
+        width: 59%;
+    }
+    .progress-CSS-bar,
+    .progress-HTML-bar {
+        width: 200px;
+    }
+    .percen-bar-java h2 {
+        font-size: 25px;
+        color: whitesmoke;
+        margin: 50px 0 10px 85px;
+    }
+    .percen-bar-HTML h2 {
+        font-size: 25px;
+        color: whitesmoke;
+        margin: 50px 0 10px 85px;
+    }
+    .percen-bar-CSS h2 {
+        font-size: 25px;
+        color: whitesmoke;
+        margin: 50px 0 10px 85px;
+    }
+    .percen-bar-JS h2 {
+        font-size: 25px;
+        color: whitesmoke;
+        margin: 50px 0 10px 85px;
+    }
+    .percen-bar-php h2 {
+        font-size: 25px;
+        color: whitesmoke;
+        margin: 25px 0 10px 85px;
+    }
+    /*-------- End About Page Responsive Coding --------*/
+    /* --- Start Responsive Coding of Contact Webpage --- */
+    .style-contact-content {
+        width: 100%;
+        position: relative;
+    }
+    .style-contact-content-labels {
+        align-self: center;
+        position: relative;
+        width: 35%;
+    }
+    .style-inputs {
+        position: relative;
+        width: 90%;
+    }
+    .style-input-email {
+        position: relative;
+        width: 90%;
+    }
+    .g-recaptcha {
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-bottom: 5px;
+        width: 50%;
+        height: 25%;
+    }
+    .status {
+        background: #777777;
+        text-align: center;
+        padding: 25%;
+        font-size: 15px;
+        color: #fff;
+        margin-bottom: 10px;
+        display: none;
+        width: 50%;
+    }
+    .style-submit-btn {
+        position: relative;
+        width: 60%;
+        align-self: center;
+    }
+    .alert {
+        text-align: center;
+        padding: 25%;
+        background: #777777;
+        font-size: 15px;
+        color: #fff;
+        margin-bottom: 10px;
+        display: none;
+        width: 50%;
+    }
+    .status {
+        font-size: 25px;
+        color: darkgreen;
+        padding: 15px;
+    }
+    .style-footer-background {
+        width: 100%;
+    }
+    .style-footer-image ul li a {
+        display: inline-block;
+        width: 100%;
+    }
+    .style-footer-image {
+        margin: 0 50px 0 auto;
+        float: left;
+        width: 50%;
+    }
+    /* --- End Responsive Coding of Contact Webpage --- */
+    /* --- Start Project Page Responsive Coding --- */
+    .style-proj-photogrid {
+        width: 95%;
+    }
+    .container-gallery {
+        width: 95%;
+    }
+    .gallery {
+        width: 100%;
+    }
+    .style-proj-text,
+    .style-work-text {
+        width: 75%;
+        margin: 10px 50px 0 50px;
+    }
+    .style-proj-info-background {
+        width: 50%;
+        margin: 0 0 0 25px;
+    }
+    .container-text {
+        width: 100%;
+        margin: 10px auto 0 auto;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .container-proj-info {
+        margin: 0 auto;
+        width: 35%;
+    }
+    .describe {
+        margin: 0 auto;
+    }
+    .style-work-text {
+        width: 75%;
+        margin: 10px auto 0 auto;
+    }
+    /* --- End Project Page Responsive Coding --- */
+}
+
+
+/* --- End Responsive Coding  --- */
+
+
+/********************************************************************************************************/
